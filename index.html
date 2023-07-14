@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images\icon.png" />
+    <link rel="stylesheet" href="./css\stylesheet.css" />
+    <title>Final Digital Resume</title>
+</head>
+
+<body>
+    <header id="header">
+        
+
+        <aside id="aside-portrait">
+            <a href="#contact"><img id="img-contact" src="./images/contact.png" alt="Contact" /></a>
+            <picture>
+                <source media="(max-width: 425px)" srcset="./images\small.png" />
+                      <source media="(max-width: 768px)" srcset="./images\medium.png" />
+                      <img id="img-portrait" src="./images/large.png" alt="Portrait" />
+            </picture>
+            <a href="https://github.com/JoshuaWillson" target="_blank"><img id="img-github" src="./images/github.png" alt="GitHub"></a>
+            </aside>
+
+        <h1 id="h1-name">Joshua Willson</h1>
+        <h2 id="h2-title"><a href="https://www.codespace.co.za/" target="_blank">CodeSpace</a> student</h2>
+        <h3 id="h3-intro">Matriculated, studying software development with previous experience in Java</h2>
+
+
+    </header>
+
+<main>
+
+<section class="main-content">
+    
+    <section id="education-certifications">
+     <h2 id="center">Education and Certifications</h2>
+        <div class="primary-school"><h3>Primary School</h3></div>
+        <ul><li><p>I attended Rivonia Primary School.</p></li></ul>
+        
+        <div class="high-school"><h3>High School</h3></div>
+        <ul><li><p>I attended St Peters College.</p></li></ul>
+
+        <div class="other-education"><h3>Other Education</h3></div>
+        <ul><li><p>I am currently studying at CodeSpace Academy.</p></li></ul>
+
+        <div class="certifications"><h3>Certifications</h3></div>
+        <ul><li><p>I received a National Senior Certificate for passing matric.</p></li></ul>
+
+    </section>
+
+    <section id="skills">
+        <h2 id="center">Skills</h2>
+            <div class="programming-languages"><h3>Programming Languages</h3></div>
+            <ul><li><p>I know Java, HTML, and CSS.</p></li></ul>
+
+            <div class="tools"><h3>Tools</h3></div>
+            <ul><li><p>I know how to use Git/GitHub and Powershell.</p></li></ul>
+
+            <div class="software"><h3>Software</h3></div>
+            <ul><li><p>I know how to use Netbeans, JGrasp, and Visual Studio Code.</p></li></ul>
+    </section>
+
+</section>
+
+    <aside id="aside-nav">
+        <div id="div-sticky">
+            <h2>Navigation</h2>
+            <nav id="nav-nav">
+            <a  id="a-nav" href="#education-certifications">Education & Certifications</a>
+            <a id="a-nav" href="#skills">Skills</a>
+            <a id="a-nav" href="#contact">Contact</a>
+            <a id="a-nav" href="#header">Back To Top</a> 
+    
+            </nav>
+        </div>
+    </aside>
+
+
+</main>
+
+<footer>
+<h2 id="contact">Contact</h2>
+
+<div id="div-git"><a href="https://github.com/JoshuaWillson" target="_blank"><img id="img-github" src="./images/github.png" alt="GitHub"></a></div>
+
+<div id="div-link" ><a href="https://za.linkedin.com/" target="_blank"><img id="img-linkedin" src="./images/linkedin.png" alt="LinkedIn"></a></div>
+
+<div id="div-insta" ><a href="https://www.instagram.com/" target="_blank"><img id="img-instagram" src="./images/instagram.png" alt="Instagram"></a></div>
+
+<div id="div-tik" ><a href="https://www.tiktok.com/en/" target="_blank"><img id="img-tiktok" src="./images/tiktok.png" alt="TikTok"></a></div>
+
+<form action="https://formsubmit.co/joshuawillsonmj@gmail.com" method="POST">
+    <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="type email here..."
+        />
+        
+        <label for="subject">Subject:</label>
+        <select name="subject" required>
+          <option value="Interview Opportunity">Interview Opportunity</option>
+          <option value="Recruiter">Recruiter</option>
+          <option value="Website Feedback">Website Feedback</option>
+        </select>
+        
+        <label for="comments">Comments:</label>
+        <textarea
+          name="comments"
+          cols="50"
+          rows="7"
+          placeholder="type comments here...(optional)"
+        ></textarea>
+        
+        <div id="send"><button type="submit">Send</button></div>
+        
+</form>
+
+<div id="email"><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><h3 id="h3-email">joshuawillsonmj@gmail.com</h3></a></div>
+
+</footer>
+
+</body>
+
+</html>
